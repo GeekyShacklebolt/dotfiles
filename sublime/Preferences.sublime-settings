@@ -1,0 +1,71 @@
+{
+    //Minimap
+	"always_show_minimap_viewport": true,
+    "draw_minimap_border": true,
+
+    //Looks
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+    "theme": "Default.sublime-theme",
+	"font_face": "Monaco",
+    "font_size": 12,
+    "tab_size": 4,
+
+    //Spaces
+    "translate_tabs_to_spaces": true,
+    "detect_indentation": false,
+    "trim_automatic_white_space": true,
+    "word_wrap": true,
+    "trim_trailing_white_space_on_save": true,
+    "draw_white_space": "all",
+    "ensure_newline_at_eof_on_save": true,
+
+    //Some other specifications
+    "default_encoding": "UTF-8",
+	"default_line_ending": "unix",
+    "show_definitions": true,
+    "tab_completion": true,
+    "find_selected_text": true,
+    "show_encoding": true,
+    "show_line_endings": true,
+    "hot_exit": true,
+    "show_navigation_bar": true,
+    "highlight_modified_tabs": true,
+    "line_padding_bottom": 5,
+    "match_brackets": true,
+    "match_brackets_angle": true,
+    "pep8_max_line_length": 80,
+    "remember_open_files": true,
+    "rulers":
+    [
+        80,
+        120
+    ],
+
+    //RegEX: excluded folders
+	"folder_exclude_patterns":
+    [
+        ".svn",
+        ".git",
+        ".hg",
+        "CVS",
+        ".sass-cache",
+        "node_modules",
+        ".tmp"
+    ],
+
+    //RegEx: excluded files
+	"file_exclude_patterns":
+	[
+        ".git",
+        ".hg",
+        ".svn",
+        "CVS",
+		".DS_Store",
+		"Desktop.ini",
+		"*.pyc",
+		"._*",
+		"Thumbs.db",
+		".Spotlight-V100",
+		".Trashes"
+	],
+}
