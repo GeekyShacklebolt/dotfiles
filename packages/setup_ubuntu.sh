@@ -52,6 +52,11 @@ sudo apt-get install sublime-text
 sudo apt-get install git
 sudo apt-get install mercurial
 
+# zsh and powerline
+sudo apt-get install zsh
+sudo apt-get install powerline
+sudo apt-get fonts-powerline
+
 # Final update and upgrade
 sudo apt-get update
 sudo apt-get upgrade
