@@ -1,0 +1,13 @@
+# Cache files/folders
+._*
+__pycache__
+
+# Virtual environment
+venv/
+
+# Temp. files
+.tmp
+
+# Other
+.git
+.vim
