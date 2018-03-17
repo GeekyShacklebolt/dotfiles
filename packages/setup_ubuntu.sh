@@ -18,10 +18,12 @@ sudo apt-get install mongodb
 
 sudo apt-get install mysql-server
 
+#python
 sudo apt-get install python3
 sudo apt-get install python3-pip
 sudo apt-get install python3-venv
 sudo apt-get install flake8
+sudo apt-get install pip
 
 sudo apt-get install ruby
 
