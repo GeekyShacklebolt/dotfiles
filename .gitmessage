@@ -13,15 +13,15 @@
 #   3. docs: Domentation only changes.
 #   4. style: Changes that do not affect the meaning of the code.
 #      (such as white-spaces, formatting, missing semi-colons, etc)
-#   5. add: Adding new file/folders
-#   6. refactor: A code change that neither fixes a bug, nor adds a
+#   5. refactor: A code change that neither fixes a bug, nor adds a
 #      feature.
-#   7. perf: A code change that improves performance.
-#   8. test: Adding missing tests.
-#   9. chore: Changes to the build process or auxiliary tools and
-#      libraries.
-#      (such as documentation generation)
-#
+#   6. perf: A code change that improves performance.
+#   7. test: Adding missing tests.
+#   8. chore: Changes to the build process or auxiliary tools and
+#      libraries. (such as documentation generation)
+#   9. add: Adding new file/folders
+#  10. update: A change that neither falls in any of the above type.
+
 # Wrap-description within 72 characters. That should inform:
 #   1. Why was this change necessary?
 #   2. How does it address the problem?
