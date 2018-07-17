@@ -17,7 +17,7 @@ alias gaa='git add :/; git status'
 alias gch='git checkout'
 alias gpo='git push origin'
 alias gpom='git push origin master; git status'
-alias gpothis='git push origin $(git branch | sed -n -e "s/^\* \(.*\)/\1/p")'
+alias gpothis='echo Push to branch: $(git branch | sed -n -e "s/^\* \(.*\)/\1/p"); git push origin $(git branch | sed -n -e "s/^\* \(.*\)/\1/p")'
 alias gsync='git checkout master; git pull upstream master; git push origin master; git checkout -'
 alias gpum='git pull upstream master'
 

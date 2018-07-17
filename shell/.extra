@@ -1,4 +1,4 @@
-# file to pring geekyshacklebolt over terminal following a fortune
+# file to print geekyshacklebolt over terminal following a fortune
 para="$(fortune -n 130 -s)"
 para_size=${#para}
 
