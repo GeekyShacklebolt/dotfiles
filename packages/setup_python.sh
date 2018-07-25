@@ -1,2 +1,6 @@
-sudo pip install virtualenv
-sudo pip install virtualenvwrapper
+pip install --upgraded pip
+pip install virtualenv
+pip install virtualenvwrapper
+pip install pipenv --user
+pip install django --user
+
