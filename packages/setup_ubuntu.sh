@@ -38,8 +38,10 @@ sudo apt-get install vlc
 
 # Text editors
 sudo apt-get install retext
+
 sudo apt-get install vim
-    # for-sublime-text
+
+# for-sublime-text
         # installing GPG key
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
         # ensuring apt to with https sources
@@ -49,6 +51,8 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
         # update and install
 sudo apt-get update
 sudo apt-get install sublime-text
+
+sudo apt-get install emacs24
 
 # DVCS
 sudo apt-get install git
