@@ -1,4 +1,4 @@
-# git commands
+# git
 alias g='git'
 alias ga='git add'
 alias gau='git add -u; git status'
@@ -20,6 +20,18 @@ alias gpom='git push origin master; git status'
 alias gpothis='echo Push to branch: $(git branch | sed -n -e "s/^\* \(.*\)/\1/p"); git push origin $(git branch | sed -n -e "s/^\* \(.*\)/\1/p")'
 alias gsync='git checkout master; git pull upstream master; git push origin master; git checkout -'
 alias gpum='git pull upstream master'
+
+# django
+alias djpro='django-admin startproject'
+alias djrun='python manage.py runserver'
+alias djmake='python manage.py makemigrations'
+alias djshow='python manage.py showmigrations'
+alias djmigrate='python manage.py migrate'
+alias djapp='python manage.py startapp'
+alias djsuper='python manage.py createsuperuser'
+alias djshell='python manage.py shell'
+alias djcheck='python manage.py check'
+alias djmessage='python manage.py makemessages'
 
 # other
 alias cl='clear; source ~/.extra' # to sustain geeky signature
