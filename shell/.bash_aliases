@@ -33,6 +33,8 @@ alias djshell='python manage.py shell'
 alias djcheck='python manage.py check'
 alias djmessage='python manage.py makemessages'
 
-# other
+# system
 alias cl='clear; source ~/.extra' # to sustain geeky signature
 alias shut='shutdown now'
+alias afk='systemctl suspend'
+alias away='systemctl hibernate'
