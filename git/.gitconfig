@@ -1,0 +1,8 @@
+[user]
+    name = GeekyShacklebolt
+    email = shivasaxena911@gmail.com
+    signingKey = D8C59E99139FF856
+[core]
+    excludesfile = /home/shiva/.gitignore_global
+    editor = vim
+
