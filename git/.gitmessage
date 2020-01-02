@@ -1,5 +1,3 @@
-
-
 #
 # Commit message: Max 50 characters.
 #
@@ -20,6 +18,8 @@
 #   8. chore: Changes to the build process or auxiliary tools and
 #      libraries.
 #      (such as documentation generation)
+#   9. add: Add new files and folder.
+#   10.update: Make general file updates.
 #
 # Wrap-description within 72 characters. That should inform:
 #   1. Why was this change necessary?
