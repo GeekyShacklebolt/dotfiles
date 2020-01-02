@@ -8,6 +8,12 @@ venv/
 # Temp. files
 .tmp
 
+# Debug directory
+debug/
+
 # Other
 .git
 .vim
+.todo
+.trash
+
