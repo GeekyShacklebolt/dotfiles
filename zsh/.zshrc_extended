@@ -1,0 +1,24 @@
+POWERLEVEL9K_MODE='default'
+ZSH_THEME="powerlevel10k/powerlevel10k"
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv user dir vcs)
+# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status nvm node_version)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time)
+
+POWERLEVEL9K_DIR_HOME_FOREGROUND="white"
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="white"
+POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="white"
+POWERLEVEL9K_VIRTUALENV_BACKGROUND="grey"
+POWERLEVEL9K_VIRTUALENV_FOREGROUND="white"
+
+#for virtualenv wrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export VIRTUALENVWRAPPER_VIRTUALENV=$HOME/.local/bin/virtualenv
+source ~/.local/bin/virtualenvwrapper.sh
+
+# to source autojump.sh
+source /usr/share/autojump/autojump.sh
+
+source /etc/zsh_command_not_found
