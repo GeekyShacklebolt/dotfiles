@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+##################################
+# This Fedora Setup Is Outdated. #
+##################################
+
 echo "Beginning with Fedora setup. Have a walk while the machine is setup"
 
 # Upgrade the already present packages
