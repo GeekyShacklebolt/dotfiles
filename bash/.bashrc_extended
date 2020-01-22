@@ -1,0 +1,12 @@
+export PATH=/home/shiva/.local/bin:$PATH
+source /usr/share/autojump/autojump.sh
+
+source ~/.shell_aliases
+
+#for virtualenv wrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export VIRTUALENVWRAPPER_VIRTUALENV=$HOME/.local/bin/virtualenv
+source ~/.local/bin/virtualenvwrapper.sh
+
