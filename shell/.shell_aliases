@@ -1,0 +1,14 @@
+#!bin/bash
+alias cl='clear; source ~/.geekyshacklebolt_shell_title_theme'
+alias shut='shutdown now'
+alias afk='systemctl suspend'
+alias away='systemctl hibernate'
+alias open='xdg-open'
+
+# Other tools
+alias vi=vim
+alias mhs='make html serve'
+
+source ~/.git_aliases
+source ~/.django_aliases
+

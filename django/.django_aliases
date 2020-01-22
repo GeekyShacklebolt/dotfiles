@@ -1,0 +1,11 @@
+alias djpro='django-admin startproject'
+alias djrun='python manage.py runserver'
+alias djmake='python manage.py makemigrations'
+alias djshow='python manage.py showmigrations'
+alias djmigrate='python manage.py migrate'
+alias djapp='python manage.py startapp'
+alias djsuper='python manage.py createsuperuser'
+alias djshell='python manage.py shell'
+alias djcheck='python manage.py check'
+alias djmessage='python manage.py makemessages'
+
