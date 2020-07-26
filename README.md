@@ -1,5 +1,5 @@
 # GeekyShacklebolt's Dotfiles
-[![Build Status](https://travis-ci.org/GeekyShacklebolt/pepper.svg?branch=master)](https://travis-ci.org/GeekyShacklebolt/pepper)
+[![Build Status](https://travis-ci.org/GeekyShacklebolt/dotfiles.svg?branch=master)](https://travis-ci.org/GeekyShacklebolt/dotfiles)
 
 The spices that cooks my machine so yummy!
 
