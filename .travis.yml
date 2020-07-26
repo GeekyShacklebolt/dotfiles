@@ -3,9 +3,6 @@ language: bash
 os:
   - linux
 
-install:
-  - sudo apt install shellcheck;
- 
 script:
   - bash ./tests/test_shell_linting.sh
 
@@ -13,3 +10,4 @@ notifications:
   email:
     on_success: change  # [always|never|change]
     on_failure: always  # [always|never|change]
+
