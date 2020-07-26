@@ -1,0 +1,3 @@
+[submodule "forked/vimrc"]
+	path = forked/vimrc
+	url = https://github.com/amix/vimrc
