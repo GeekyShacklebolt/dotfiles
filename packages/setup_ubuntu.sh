@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# APT packages
+# Apt packages
 apt install -y keepassxc
 apt install -y vim
 apt install -y git
@@ -32,6 +32,12 @@ apt install -y texlive-full  # Size around 2.5 GB
 apt install -y pencil2d
 apt install -y net-tools
 apt install -y pdftk
+apt install -y yui-compressor
+
+
+# Snap Packages
+snap install -y --classic heroku
+snap install -y --classic sublime-text
 
 
 # Forked repos
