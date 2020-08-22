@@ -10,6 +10,7 @@ venv/
 
 # Debug directory
 debug/
+.Trash/
 
 # Other
 .git
