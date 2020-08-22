@@ -19,7 +19,7 @@ SPACES=$(( COLUMNS - MIN_COLS_LIMIT + MAX_LINE_LENGTH - LARGEST_LINE_LENGTH ))
 SPACES="$(printf '%*s' $SPACES "")"
 
 printf "\033[1m"
-if [ $COLUMNS -ge 100 ]; then
+if [ $COLUMNS -ge 135 ]; then
     printf "      ______          __         _____ __               __   __     __          ____          \n"
     printf "     / ____/__  ___  / /____  __/ ___// /_  ____ ______/ /__/ /__  / /_  ____  / / /_ %s | %s \n" "$SPACES" "${line1}"
     printf "    / / __/ _ \/ _ \/ //_/ / / /\__ \/ __ \/ __  / ___/ //_/ / _ \/ __ \/ __ \/ / __/ %s | %s \n" "$SPACES" "${line2}"
