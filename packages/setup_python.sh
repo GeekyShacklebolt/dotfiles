@@ -1,7 +1,7 @@
 #!/bin/bash
 
-pip install virtualenv
-pip install virtualenvwrapper
-pip install pipenv
-pip install diceware
+pip3 install -U virtualenv --user
+pip3 install -U virtualenvwrapper --user
+pip3 install -U pipenv --user
+pip3 install -U diceware --user
 
