@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ln ./vim/my_configs.vim ~/.vim_runtime/
+ln ./editorconf/vim/my_configs.vim ~/.vim_runtime/
 ln ./shell/.shell_aliases ~/
 ln ./git/.git_aliases ~/
 ln ./git/.gitconfig ~/
