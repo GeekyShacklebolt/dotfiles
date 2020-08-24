@@ -1,0 +1,44 @@
+
+{
+    "editor.formatOnSave": true,
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "files.encoding": "utf8",
+    "terminal.integrated.fontFamily": "Droid Sans Mono Awesome",
+    "editor.detectIndentation": false,
+    "editor.renderWhitespace": "all",
+    "files.insertFinalNewline": true,
+    "editor.fontFamily": "Monaco",
+    // "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 16,
+    "files.hotExit": "onExit",
+    "editor.matchBrackets": true,
+    "editor.tabSize": 4,
+    "editor.trimAutoWhitespace": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "workbench.colorTheme": "Mariana Pro (Cool)",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+    "[html]": {
+        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    // "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "prettier.disableLanguages": [
+        "js"
+    ],
+    "sync.gist": "62015269b9fa1216fdb9c5de2af1f679",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always"
+}
