@@ -33,11 +33,13 @@ apt install -y pencil2d
 apt install -y net-tools
 apt install -y pdftk
 apt install -y yui-compressor
+apt install -y inkscape
 
 
 # Snap Packages
 snap install -y --classic heroku
 snap install -y --classic sublime-text
+snap install -y --classic code
 
 
 # Forked repos
