@@ -1,13 +1,17 @@
 #!/bin/bash
 
-ln ./editorconf/vim/my_configs.vim ~/.vim_runtime/
-ln ./shell/.shell_aliases ~/
-ln ./git/.git_aliases ~/
+ln ./aliases/.shell_aliases ~/
+ln ./aliases/.git_aliases ~/
+ln ./aliases/.django_aliases ~/
+
+ln -f ./editorconf/vim/my_configs.vim ~/.vim_runtime/
+
 ln ./git/.gitconfig ~/
 ln ./git/.gitignore_global ~/
-ln ./extra/.geekyshacklebolt_shell_title_theme ~/
-ln ./django/.django_aliases ~/
+
+ln ./bash/.bashrc_extended ~/
 ln ./zsh/.zshrc ~/
 ln ./zsh/.zshrc_extended ~/
-ln ./bash/.bashrc_extended ~/
+
+ln -f ./extra/.geekyshacklebolt_shell_title_theme ~/
 
