@@ -34,6 +34,22 @@ apt install -y net-tools
 apt install -y pdftk
 apt install -y yui-compressor
 apt install -y inkscape
+apt install -y postgresql
+apt install -y postgis
+apt install -y speedtest-cli
+apt install -y lynx
+apt install -y steam
+apt install -y nload
+apt install -y font-manager
+
+
+# Pyenv
+# Pyenv Dependencies
+apt install -y make build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \
+libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl
+# Pyenv Installer: https://github.com/pyenv/pyenv-installer
+curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
 
 
 # Snap Packages
