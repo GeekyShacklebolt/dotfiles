@@ -1,4 +1,5 @@
-#!bin/bash
+#!/bin/bash
+
 alias cl='clear; source ~/.geekyshacklebolt_shell_title_theme'
 alias shut='shutdown now'
 alias afk='systemctl suspend'
@@ -8,7 +9,12 @@ alias open='xdg-open'
 # Other tools
 alias vi=vim
 alias mhs='make html serve'
+alias fapp=export_fapp
 
-source ~/.git_aliases
-source ~/.django_aliases
+export_fapp() {
+    export FLASK_APP=$1
+}
+
+source "$HOME"/.git_aliases
+source "$HOME"/.django_aliases
 

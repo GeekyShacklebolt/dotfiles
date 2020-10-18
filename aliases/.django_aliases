@@ -1,3 +1,5 @@
+#!/bin/bash
+
 alias djpro='django-admin startproject'
 alias djrun='python manage.py runserver'
 alias djmake='python manage.py makemigrations'
